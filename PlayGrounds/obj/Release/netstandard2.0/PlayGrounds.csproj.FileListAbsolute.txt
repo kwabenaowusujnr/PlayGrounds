@@ -1,0 +1,13 @@
+E:\PROJECTS\PlayGrounds\PlayGrounds\PlayGrounds\bin\Release\netstandard2.0\PlayGrounds.deps.json
+E:\PROJECTS\PlayGrounds\PlayGrounds\PlayGrounds\bin\Release\netstandard2.0\PlayGrounds.dll
+E:\PROJECTS\PlayGrounds\PlayGrounds\PlayGrounds\bin\Release\netstandard2.0\PlayGrounds.pdb
+E:\PROJECTS\PlayGrounds\PlayGrounds\PlayGrounds\obj\Release\netstandard2.0\PlayGrounds.csprojAssemblyReference.cache
+E:\PROJECTS\PlayGrounds\PlayGrounds\PlayGrounds\obj\Release\netstandard2.0\App.xaml.g.cs
+E:\PROJECTS\PlayGrounds\PlayGrounds\PlayGrounds\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+E:\PROJECTS\PlayGrounds\PlayGrounds\PlayGrounds\obj\Release\netstandard2.0\NumbersRoom.xaml.g.cs
+E:\PROJECTS\PlayGrounds\PlayGrounds\PlayGrounds\obj\Release\netstandard2.0\SongsPlayer.xaml.g.cs
+E:\PROJECTS\PlayGrounds\PlayGrounds\PlayGrounds\obj\Release\netstandard2.0\PlayGrounds.AssemblyInfoInputs.cache
+E:\PROJECTS\PlayGrounds\PlayGrounds\PlayGrounds\obj\Release\netstandard2.0\PlayGrounds.AssemblyInfo.cs
+E:\PROJECTS\PlayGrounds\PlayGrounds\PlayGrounds\obj\Release\netstandard2.0\XamlC.stamp
+E:\PROJECTS\PlayGrounds\PlayGrounds\PlayGrounds\obj\Release\netstandard2.0\PlayGrounds.dll
+E:\PROJECTS\PlayGrounds\PlayGrounds\PlayGrounds\obj\Release\netstandard2.0\PlayGrounds.pdb

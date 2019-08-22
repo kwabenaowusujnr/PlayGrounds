@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="PlayGrounds.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:behaviors="clr-namespace:PlayGrounds.Helpers.Behaviors"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <ContentPage.Content>
+        <AbsoluteLayout Padding="5">
+            <forms:AnimationView
+                Margin="0"
+                AbsoluteLayout.LayoutBounds="0.5,0.5,400,700"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                Animation="ribbon.json"
+                AutoPlay="True"
+                HorizontalOptions="EndAndExpand"
+                Loop="true"
+                VerticalOptions="FillAndExpand" />
+
+            <Image
+                AbsoluteLayout.LayoutBounds="0.5,0.5,250,250"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                Aspect="AspectFill"
+                Source="ponny" />
+
+
+            <Image
+                AbsoluteLayout.LayoutBounds="0,0,50,50"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                Source="moneybag">
+                <Image.Behaviors>
+                    <behaviors:ViewTappedButtonBehavior Clicked="MyChest_Clicked" />
+                </Image.Behaviors>
+            </Image>
+            <!--<Image
+                AbsoluteLayout.LayoutBounds="1,0,50,50"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                Source="ghana">
+                <Image.Behaviors>
+                    <behaviors:ViewTappedButtonBehavior Clicked="ViewTappedButtonBehavior_Clicked" />
+                </Image.Behaviors>
+            </Image>-->
+            <Label
+                Text="Little`s Playground"
+                AbsoluteLayout.LayoutBounds="0.5,0"
+                TextColor="Black"
+                FontAttributes="Bold"
+                FontSize="28"
+                AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+            <forms:AnimationView
+                Margin="0"
+                AbsoluteLayout.LayoutBounds="1,0,140,70"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                Animation="abc.json"
+                AutoPlay="True"
+                HeightRequest="70"
+                HorizontalOptions="EndAndExpand"
+                Loop="true"
+                VerticalOptions="FillAndExpand"
+                WidthRequest="140" />
+
+            <!--<Image
+                AbsoluteLayout.LayoutBounds="1,1,50,50"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                Source="africa" />-->
+
+            <Image
+                AbsoluteLayout.LayoutBounds="0,1,100,50"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                Source="numberCount">
+                <Image.Behaviors>
+                    <behaviors:ViewTappedButtonBehavior Clicked="Number_Clicked" />
+                </Image.Behaviors>
+            </Image>
+
+            <StackLayout
+                AbsoluteLayout.LayoutBounds="0.5,1,200,40"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                HorizontalOptions="CenterAndExpand"
+                Orientation="Horizontal"
+                Spacing="20">
+                <Image
+                    x:Name="btn_Pause"
+                    HeightRequest="40"
+                    HorizontalOptions="Center"
+                    Source="pause"
+                    WidthRequest="40">
+                    <Image.Behaviors>
+                        <behaviors:ViewTappedButtonBehavior Clicked="BtnPause_Clicked" />
+                    </Image.Behaviors>
+                </Image>
+                <Image
+                    x:Name="btn_Play"
+                    HeightRequest="40"
+                    HorizontalOptions="Center"
+                    Source="play"
+                    WidthRequest="40">
+                    <Image.Behaviors>
+                        <behaviors:ViewTappedButtonBehavior Clicked="BtnPlay_Clicked" />
+                    </Image.Behaviors>
+                </Image>
+                <Image
+                    x:Name="btn_Stop"
+                    HeightRequest="40"
+                    HorizontalOptions="Center"
+                    Source="stop"
+                    WidthRequest="40">
+                    <Image.Behaviors>
+                        <behaviors:ViewTappedButtonBehavior Clicked="BtnStop_Clicked" />
+                    </Image.Behaviors>
+                </Image>
+            </StackLayout>
+
+
+            <forms:AnimationView
+                x:Name="btn_Songs"
+                AbsoluteLayout.LayoutBounds="1,1,80,80"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                Animation="play.json"
+                AutoPlay="True"
+                HeightRequest="70"
+                HorizontalOptions="FillAndExpand"
+                Loop="true"
+                OnClick="Btn_Songs_OnClick"
+                VerticalOptions="FillAndExpand"
+                WidthRequest="70" />
+        </AbsoluteLayout>
+
+
+    </ContentPage.Content>
+
+</ContentPage>
